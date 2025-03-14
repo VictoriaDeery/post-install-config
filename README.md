@@ -33,13 +33,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-  See first "azure compute & networking directory" and osTicket prereqs repositories (https://github.com/victoriadeery/osticket-prereqs)
-  <p
-Resources:
-<p>
-Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php 
-
-End Users osTicket URL: http://localhost/osTicket 
+  
+- See first "azure compute & networking directory" (https://github.com/victoriadeery/azure-computing-and-networking) and osTicket prereqs repositories (https://github.com/victoriadeery/osticket-prereqs)
+- Resources:
+  - Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
+  - End Users osTicket URL: http://localhost/osTicket 
 
 <img src="https://github.com/user-attachments/assets/e4ae2fea-6a74-42ef-840b-9f00e7ec643b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
