@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. This includes creating roles, a department, a team, users of the platform called agents, an enduser, SLA configuration for working with tickets, and help topics for endusers to categorize the tickets they create for the analysts or agents. 
+<br />
 
 
 <h2>Video Demonstration</h2>
@@ -104,7 +105,7 @@ Sev-C (Grace Period: 8 hours, Business Hours)
 </p>
 <p>
 7. To configure Help Topics: Admin Panel -> Manage -> Help Topics -> Add New Help Topic
-  Help Topics are the category options for ticket creators to choose as the topic of their tickets. For example add "Business Critical Outage" and select "report a problem" for the parent topic and select the orange button "Add topic"
+  Help Topics are the category options for ticket creators to choose as the topic of their tickets. For example add "Business Critical Outage" and select "report a problem" for the parent topic and select the orange button "Add topic." Another Help topic you can add would be "Personal Computer Issues" (report a problem), "Equipment Request" (General Inquiry), "Password Reset" (report a problem), and "Other" (General Inquiry)
 </p>
 <br />
 </p>
