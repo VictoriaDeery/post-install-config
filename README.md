@@ -74,7 +74,7 @@ To configure a team: Admin Panel -> Agents -> Teams -> Add new department. For e
 </p>
 <p>
 4. To configure Agents (workers): Admin Panel -> Agents -> Add New Agent.
- For example add Jane Doe (Email: Jane@outlook.com; Username: Jane; Dept: SysAdmins; Role: Supreme Admin; Team: Online Banking) and John Doe(Email: John@outlook.com; Username: John; Dept: Support; Role: all access; Team: None Selected). To set the password for a user, on the account page select "set password", unselect "send the agent a password reset email" and input the password for the agent twice and select "update". To set the department and role select "access" and choose. And then select "teams" to put them on a team if desired. And lastly select "create" in orange.
+ For example add Jane Doe (Email: Jane@outlook.com; Username: Jane; Dept: SysAdmins; Role: Supreme Admin; Team: Online Banking) and John Doe(Email: John@outlook.com; Username: John; Dept: Support; Role: Supreme Admin; Team: None Selected). To set the password for a user, on the account page select "set password", unselect "send the agent a password reset email" and input the password for the agent twice and select "update". To set the department and role select "access" and choose. And then select "teams" to put them on a team if desired. And lastly select "create" in orange.
 
 <p>
 <img src="https://github.com/user-attachments/assets/46600dbc-9531-4957-9f7f-caf5e5425ab4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
