@@ -70,26 +70,35 @@ To configure a team: Admin Panel -> Agents -> Teams -> Add new department. For e
 </p>
 <br />
 <p>
-<img src="https://github.com/user-attachments/assets/481af333-ddab-4287-a6ce-3eb5e087ad7e"
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/481af333-ddab-4287-a6ce-3eb5e087ad7e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-4. To configure Agents (workers): Admin Panel -> Agents -> Add New
+4. To configure Agents (workers): Admin Panel -> Agents -> Add New Agent.
  For example add Jane Doe (Email: Jane@outlook.com; Username: Jane; Dept: SysAdmins; Role: Supreme Admin; Team: Online Banking) and John Doe(Email: John@outlook.com; Username: John; Dept: Support; Role: view only; Team: None Selected). To set the password for a user, on the account page select "set password", unselect "send the agent a password reset email" and input the password for the agent twice and select "update". To set the department and role select "access" and choose. And then select "teams" to put them on a team if desired. And lastly select "create" in orange.
 
 <p>
-
- To configure Users (customers): Agent Panel -> Users -> Add New -> Add new user
-Karen
+<img src="https://github.com/user-attachments/assets/46600dbc-9531-4957-9f7f-caf5e5425ab4"
+ height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+5. To configure Users (customers): Agent Panel -> Users -> Add New -> Add new user. notice we are switching to the agent panel.
 
 </p>
 <br />
 
 <p>
- $ <img src="https://github.com/user-attachments/assets/e4ae2fea-6a74-42ef-840b-9f00e7ec643b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ $ <img src="https://github.com/user-attachments/assets/9b1e6013-7274-4ad4-b13f-210ee5b158d2"
+ height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-1. To configure roles: Use the Admin page to naviagate to click on "agents" in the top right. Then click on "roles" above"--All Teams--." Here can update role prmissions and create new roles by selecting "role" again and then "add new role" naming it, and selecting Permissions to define its permissions for tickets, tasks, and knowledgebase. For example a user called Supremem Admin that has access to all.
+6. To configure SLA: Admin Panel -> Manage -> SLA -> Add New SLA Plan. Notice we are back in the admin panel. For example create the following SLAs:
+  <p>
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+    </p>
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+</p>
+Sev-C (Grace Period: 8 hours, Business Hours)
+</p>
+
 </p>
 <br />
 
