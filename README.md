@@ -22,34 +22,83 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles 
+- Configure Departments and Teams
+- Allow anyone to create Tickets
+- Configure Agents (workers) and Users (customers)
+- Configure SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  See first "azure compute & networking directory" and osTicket prereqs repositories (https://github.com/victoriadeery/osticket-prereqs)
+  <p
+Resources:
+<p>
+Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php 
+
+End Users osTicket URL: http://localhost/osTicket 
+
+<img src="https://github.com/user-attachments/assets/e4ae2fea-6a74-42ef-840b-9f00e7ec643b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1. To configure roles: Use the Admin page to naviagate to click on "agents" in the top right. Then click on "roles" above"--All Teams--." Here can update role prmissions and create new roles by selecting "role" again and then "add new role" naming it, and selecting Permissions to define its permissions for tickets, tasks, and knowledgebase. For example a user called Supremem Admin that has access to all.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/fdfa597a-092a-45e0-bcc3-670270a2a70a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2. To configure Departments: stay on the Admin Panel -> Agents -> Departments -> Add new department. For example, you may now input "SysAdmins for Name and have them at the top level department so they may view all tickets in all departments. In the access tab, you may assign relevent agents, click the orange "create dept" button to create it. However, if you would like agents from different departments to work together, you may create a Team.
+
+</p>
+To configure a team: Admin Panel -> Agents -> Teams -> Add new department. For example call it "Online Banking" and click the orange "create team" button to create it.
+<p>
+  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/b24256e7-93e0-4f1c-861d-f77c9d2a2e2c"
+ height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. To give everyone, even those without an account access to create a ticket: Admin Panel -> Settings -> Users -> Make sure "Require registration and login to create tickets" is Unchecked.
+
 </p>
 <br />
+<p>
+<img src="https://github.com/user-attachments/assets/481af333-ddab-4287-a6ce-3eb5e087ad7e"
+" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4. To configure Agents (workers): Admin Panel -> Agents -> Add New
+ For example add Jane Doe (Email: Jane@outlook.com; Username: Jane; Dept: SysAdmins; Role: Supreme Admin; Team: Online Banking) and John Doe(Email: John@outlook.com; Username: John; Dept: Support; Role: view only; Team: None Selected). To set the password for a user, on the account page select "set password", unselect "send the agent a password reset email" and input the password for the agent twice and select "update". To set the department and role select "access" and choose. And then select "teams" to put them on a team if desired. And lastly select "create" in orange.
+
+<p>
+
+ To configure Users (customers): Agent Panel -> Users -> Add New -> Add new user
+Karen
+
+</p>
+<br />
+
+<p>
+ $ <img src="https://github.com/user-attachments/assets/e4ae2fea-6a74-42ef-840b-9f00e7ec643b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+1. To configure roles: Use the Admin page to naviagate to click on "agents" in the top right. Then click on "roles" above"--All Teams--." Here can update role prmissions and create new roles by selecting "role" again and then "add new role" naming it, and selecting Permissions to define its permissions for tickets, tasks, and knowledgebase. For example a user called Supremem Admin that has access to all.
+</p>
+<br />
+
+<p>
+ $ <img src="https://github.com/user-attachments/assets/e4ae2fea-6a74-42ef-840b-9f00e7ec643b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+1. To configure roles: Use the Admin page to naviagate to click on "agents" in the top right. Then click on "roles" above"--All Teams--." Here can update role prmissions and create new roles by selecting "role" again and then "add new role" naming it, and selecting Permissions to define its permissions for tickets, tasks, and knowledgebase. For example a user called Supremem Admin that has access to all.
+</p>
+<br />
+</p>
+</p>
