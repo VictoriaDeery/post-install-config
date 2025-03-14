@@ -34,7 +34,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
   
-- See first "azure compute & networking directory" (https://github.com/victoriadeery/azure-computing-and-networking) and osTicket prereqs repositories (https://github.com/victoriadeery/osticket-prereqs)
+- See first:
+  - [Azure Compute and Networking](https://github.com/victoriadeery/azure-computing-and-networking),
+  - [osTicket: Prerequisites and Installation](https://github.com/victoriadeery/osticket-prereqs), 
 - Resources:
   - Admin/Analyst Login Page: http://localhost/osTicket/scp/login.php
   - End Users osTicket URL: http://localhost/osTicket 
