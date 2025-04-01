@@ -3,13 +3,13 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. This includes creating roles, a department, a team, users of the platform called agents, an enduser, SLA configuration for working with tickets, and help topics for endusers to categorize the tickets they create for the analysts or agents. 
+This tutorial outlines the post-installation configuration of the open-source help desk ticketing system osTicket. This includes creating roles, a department, a team, users of the platform called agents, an end user, SLA configuration for working with tickets, and help topics for end users to categorize the tickets they create for the analysts or agents. 
 <br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube Demo "How To Configure osTicket, post-installation"-coming soon](https://www.youtube.com)
+- ### [YouTube Demo "How To Configure osTicket, post-installation" - coming soon](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
