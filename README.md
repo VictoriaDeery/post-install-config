@@ -110,3 +110,7 @@ Sev-C (Grace Period: 8 hours, Business Hours)
 <br />
 </p>
 </p>
+<h2>Up Next: Work the Lifecycle of Tickets in the ticketing system!</h2>
+
+  - [osTicket: Ticket Lifecycle Examples](https://github.com/victoriadeery/ticket-lifecycle)
+<p></p>
